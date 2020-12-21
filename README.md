@@ -64,7 +64,7 @@ make
 docker-compose up -d
 ```
 
-### Login atlas using Web UI:
+### Login atlas using Web UI
 
 Open `http://localhost:21000` in your local browser, wait until you see the login page, use `admin` / `admin` to login.
 
@@ -89,7 +89,7 @@ create table t(i int);
 create view v as select * from t;
 ```
 
-### Check lineage in Web UI:
+### Check lineage in Web UI
 
 Now refresh the atlas Web UI page, you'll see a bunch of hive entities captured, each of which containing the lineage info.
 
